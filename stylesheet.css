@@ -1,0 +1,135 @@
+body{
+background-color:#E0DBCA;/*#EAEAEA; /*#DFE2EA #CFCCC6;*/
+}
+.cont_container{
+	width:350px;
+	min-height: 250px;
+	margin: 25vh auto;
+	background-color: #F6F7F9;
+	box-shadow: 0 0px 4px 1px rgba(0,0,0,0.1);
+	border-radius: 3px;
+	position: relative;
+}
+.head{
+	border-bottom:1px solid #F5F4F1;
+	color: #FFF;
+	background-color:#FD7056 ; /*#FF605F;*/
+	border-radius: 3px 3px 0 0 ;
+	height: 50px;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 15pt;
+	font-weight: 600;
+	font-family:tahoma;
+	line-height: 50px;
+	position: relative;
+}
+.backIcon{
+	position: absolute;
+	background-color:;
+	width: 30px
+	height:30px;
+	left: 10px;
+	top:0px;
+}
+img{
+	margin-top: 15px;
+	width: 15px;
+	height: 15px;
+}
+.para_text{
+	text-align: center;
+	font-family: monospace;
+	padding: 15px;
+	color:#888;
+}
+.left_divider_Sec{
+	background-color: #Fff;
+	float: left;
+	width: 50%;
+	height: 80px;
+	line-height: 80px;
+	margin-top: 10px;
+	border-radius: 3px 0 0 3px;
+	box-shadow: 0 0px 5px 0px rgba(0,0,0,0.1);
+}
+.right_divider_Sec{
+	background-color: #Fff;
+	float:right;
+	width: 50%;
+	height: 80px;
+	line-height: 80px;
+	margin-top: 10px;
+	border-radius: 0 3px 3px 0;
+	box-shadow: 0 0px 5px 0px rgba(0,0,0,0.1);
+}
+.left_divider_Sec:last-child{
+	border-radius: 0 3px 3px 0;
+
+}
+.left_divider_Sec>a,.right_divider_Sec>a{
+	text-decoration: none;
+	color: #888;
+	}
+	.left_divider_Sec>a:hover,.right_divider_Sec>a:hover{
+	color: #5A728E;
+	}
+.divider_Sec2{
+	background-color: #Fff;
+	width: 100%;
+	height: 180px;
+	margin-top: 10px;
+	border-radius: 3px;
+	box-shadow: 0 0px 5px 0px rgba(0,0,0,0.1);
+	position: relative;
+}
+#textBox1{
+width: 45%;
+margin: 10px 2px 0;
+height: 20px;
+border:1px solid #E0DFE2;
+font-family: monospace;
+}
+* input {
+	text-indent: 5px;
+	border-radius: 3px;
+}
+#logLINK a{
+	text-indent: 5px;
+	text-decoration: none;
+		color:#6CC7FB;
+		border-bottom: 2px solid #6CC7FB;
+}
+
+#textBoxHrz{
+	width: 94.2%;
+	height: 20px;
+	margin-top: 10px;
+	border:1px solid #E0DFE2;
+	font-family: monospace;
+}
+#textBox3{
+width: 45%;
+margin: 10px 2px 0 5px;
+height: 20px;
+border:1px solid #E0DFE2;
+font-family: monospace;
+}
+
+#logLINK{
+	position: absolute;
+	left: 10px;
+	bottom: 15px;
+
+}
+#btnReg{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	background-color:#69CB75; /*#6CC7FB;*/
+	color: #Fff;
+	border:none;
+	height: 25px;
+	width: 100px;
+	font-family: monospace;
+}
